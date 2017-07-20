@@ -13,7 +13,6 @@ var Buttons = React.createClass({
       </div>
     );
   }
-
 });
 
 export default Buttons;

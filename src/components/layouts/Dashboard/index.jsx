@@ -69,15 +69,14 @@ var HomePage = React.createClass({
                 </ul>
               </div>
 
-               <ReactCSSTransitionGroup component="div"
-                                 transitionName="ng"
-                                 transitionEnterTimeout={500}
-                                 transitionLeaveTimeout={300}
+               <ReactCSSTransitionGroup
+                  component="div"
+                  transitionName="ng"
+                  transitionEnterTimeout={500}
+                  transitionLeaveTimeout={300}
                 >
-                  {React.cloneElement(<div className="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main ng-scope ui-view">{this.props.children}</div> || <div />, { key: pathname })}
-                </ReactCSSTransitionGroup>
-
-
+                {React.cloneElement(<div className="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main ng-scope ui-view">{this.props.children}</div> || <div />, { key: pathname })}
+              </ReactCSSTransitionGroup>
             </div>
           </div>
         </div>

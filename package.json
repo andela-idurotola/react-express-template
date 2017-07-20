@@ -1,5 +1,5 @@
 {
-  "name": "react - express boilerplate",
+  "name": "react-express-boilerplate",
   "version": "0.0.0",
   "description": "A minimal skeleton for building testable React apps using ES6.",
   "main": "src/main.jsx",

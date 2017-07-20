@@ -7,10 +7,8 @@ var Blank = React.createClass({
     return (
       <div className="overview-page" key="overview">
         <Link to="/dashboard/reports" className="pull-right btn btn-primary btn-outline btn-rounded">Reports</Link>
-        <h2>Overview <small>Why is Ani Theme so awesome?</small></h2>  
+        <h2>Overview</h2>
       </div>
-
-
     );
   }
 

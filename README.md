@@ -1,18 +1,18 @@
 ## A React - Express Boilerplate
 
 ## Installation
-####1. Clone this project
+#### 1. Clone this project
 
 ```sh
-$ git clone
+$ git clone https://github.com/andela-idurotola/react-express-template.git
 ```
 
-####2.  Make sure you have [npm](https://www.npmjs.org/) installed globally
+#### 2.  Make sure you have [npm](https://www.npmjs.org/) installed globally
 
 More details here
 https://nodejs.org/en/download/
 
-####3. On the command prompt run the following commands
+#### 3. On the command prompt run the following commands
 
 ```sh
 $ cd `project-directory`
